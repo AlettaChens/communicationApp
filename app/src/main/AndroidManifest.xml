@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.graduate.communicationunion">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".CommunicationApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.UpdateUserInfoActivity" />
+        <activity android:name=".activity.SuggestionActivity" />
+        <activity android:name=".activity.AboutActivity" />
+        <activity android:name=".activity.BookDetail" />
+        <activity android:name=".activity.PublishBookActivity" />
+        <activity android:name=".activity.NewsDetail" />
+        <activity android:name=".activity.NewsListActivity" />
+        <activity android:name=".activity.PublishTalkActivity" />
+        <activity android:name=".activity.PersonBookActivity" />
+        <activity android:name=".activity.PersonTalkActivity" />
+        <activity android:name=".activity.LoginActivity"/>
+        <activity android:name=".activity.TalkDetailActivity"
+            android:windowSoftInputMode="adjustPan"/>
+    </application>
+
+</manifest>

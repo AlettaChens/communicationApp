@@ -1,0 +1,107 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/theme_color"
+        android:padding="3dp">
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_marginStart="10dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/arrow_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="5dp"
+            android:text="图书信息详情"
+            android:textColor="@color/page_title_color"
+            android:textSize="20sp"
+            android:typeface="monospace" />
+    </RelativeLayout>
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+     <ImageView
+         android:src="@mipmap/ic_app"
+         android:id="@+id/iv_book"
+         android:layout_marginLeft="20dp"
+         android:layout_marginTop="30dp"
+         android:layout_marginRight="10dp"
+         android:layout_width="120dp"
+         android:layout_height="120dp" />
+     <TextView
+         android:textColor="@color/normal_tab_text"
+         android:text="书名：高等数学18讲"
+         android:textSize="20sp"
+         android:id="@+id/tv_book_title"
+         android:layout_marginTop="18dp"
+         android:layout_marginRight="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_toRightOf="@id/iv_book"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+     <TextView
+     android:text="价格：18"
+     android:textSize="20sp"
+     android:textColor="@color/normal_tab_text"
+     android:id="@+id/tv_book_price"
+     android:layout_marginTop="10dp"
+     android:layout_marginRight="20dp"
+     android:layout_marginLeft="10dp"
+     android:layout_below="@id/tv_book_title"
+     android:layout_toRightOf="@id/iv_book"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" />
+     <TextView
+         android:text="发布时间:2018年10月31日"
+         android:textSize="18sp"
+         android:textColor="@color/normal_tab_text"
+         android:id="@+id/tv_book_time"
+         android:layout_marginTop="10dp"
+         android:layout_marginRight="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_below="@id/tv_book_price"
+         android:layout_toRightOf="@id/iv_book"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+     <TextView
+         android:text="联系电话:15755023853"
+         android:textSize="18sp"
+         android:textColor="@color/normal_tab_text"
+         android:id="@+id/tv_book_phone"
+         android:layout_marginTop="10dp"
+         android:layout_marginRight="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_below="@id/tv_book_time"
+         android:layout_toRightOf="@id/iv_book"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+     <TextView
+         android:textColor="@color/normal_tab_text"
+         android:text="描述:"
+         android:textSize="25sp"
+         android:layout_marginTop="20dp"
+         android:id="@+id/tv_book_des_title"
+         android:layout_marginRight="20dp"
+         android:layout_marginLeft="20dp"
+         android:layout_below="@id/iv_book"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+     <TextView
+         android:background="@drawable/shape_edit_back"
+         android:textSize="18sp"
+         android:text="计算机专业研究生考试交流平台，致力于为考研学生提供便利服务。包括考研资讯服务、考研二手书本的交流服务，考研论坛服务，本系统特色功能基于用户的浏览记录利用基于用户的协同过滤算法为用户推荐喜欢的考研资讯。"
+         android:id="@+id/tv_book_des"
+         android:layout_marginRight="20dp"
+         android:layout_marginLeft="20dp"
+         android:layout_below="@id/tv_book_des_title"
+         android:layout_width="match_parent"
+         android:layout_height="200dp" />
+ </RelativeLayout>
+</LinearLayout>

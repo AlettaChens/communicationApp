@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">助研</string>
+    <string name="talk_main_title">交流</string>
+    <string name="home_main_title">首页</string>
+    <string name="user_main_title">我的</string>
+</resources>

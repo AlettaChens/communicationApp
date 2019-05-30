@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="normal_tab_text">#515151</color>
+    <color name="active_tab_text">#3385FF</color>
+    <color name="theme_color">#3385FF</color>
+    <color name="page_title_color">#8B4513</color>
+    <color name="normal_text_color">#000000</color>
+
+</resources>

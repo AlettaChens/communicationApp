@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="3dp"
+        android:id="@+id/rl_title">
+
+        <TextView
+            android:background="@drawable/shape_radius_color_square"
+            android:id="@+id/tv_comment_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:text="张某某"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/tv_comment_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:text="发布时间:2018-09-20"
+            android:textColor="@color/normal_tab_text"
+            android:textSize="14sp"
+            android:typeface="monospace" />
+    </RelativeLayout>
+
+    <ScrollView
+     android:layout_below="@id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="计算机专业研究生考试交流平台，致力于为考研学生提供便利服务。包括考研资讯服务、考研二手书本的交流服务，考研论坛服务，本系统特色功能基于用户的浏览记录利用基于用户的协同过滤算法为用户推荐喜欢的考研资讯。计算机专业研究生考试交流平台，致力于为考研学生提供便利服务。包括考研资讯服务、考研二手书本的交流服务，考研论坛服务，本系统特色功能基于用户的浏览记录利用基于用户的协同过滤算法为用户推荐喜欢的考研资讯。计算机专业研究生考试交流平台，致力于为考研学生提供便利服务。包括考研资讯服务、考研二手书本的交流服务，考研论坛服务，本系统特色功能基于用户的浏览记录利用基于用户的协同过滤算法为用户推荐喜欢的考研资讯。计算机专业研究生考试交流平台，致力于为考研学生提供便利服务。包括考研资讯服务、考研二手书本的交流服务，考研论坛服务，本系统特色功能基于用户的浏览记录利用基于用户的协同过滤算法为用户推荐喜欢的考研资讯。计算机专业研究生考试交流平台，致力于为考研学生提供便利服务。包括考研资讯服务、考研二手书本的交流服务，考研论坛服务，本系统特色功能基于用户的浏览记录利用基于用户的协同过滤算法为用户推荐喜欢的考研资讯。"
+            android:textSize="16sp" />
+    </ScrollView>
+
+</RelativeLayout>
